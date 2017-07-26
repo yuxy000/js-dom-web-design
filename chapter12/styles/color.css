@@ -41,6 +41,11 @@ article {
 	border-color: #667;
 }
 
+article img {
+  border-color: #ba9;
+  outline-color: #dcb;
+}
+
 header nav ul {
 	border-color: #99a;
 }

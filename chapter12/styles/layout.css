@@ -59,19 +59,19 @@ article img {
 }
 
 #about header {
-	background: url(../images/lineup.gif);
+	background-image: url(../images/lineup.gif);
 }
 
 #photos header {
-	background: url(../images/basshead.gif);
+	background-image: url(../images/basshead.gif);
 }
 
 #live header {
-	background: url(../images/bassist.gif);	
+	background-image: url(../images/bassist.gif);	
 }
 
 #contact header {
-	background: url(../images/drummer.gif);
+	background-image: url(../images/drummer.gif);
 }
 
 #slideshow {
@@ -94,4 +94,8 @@ article img {
 	z-index: 99;
 	border-width: 0;
 	outline-width: 0;
+}
+
+#imageGallery li {
+	display: inline;
 }
