@@ -53,3 +53,11 @@ h3 {
 textarea {
 	font-family: helvetica, arial, sans-serif;
 }
+
+dt {
+	margin-right: 1em;
+}
+
+dd {
+	margin-right: 3em;
+}

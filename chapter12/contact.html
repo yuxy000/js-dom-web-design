@@ -2,8 +2,49 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>Jay Skript and the Domsters</title>
+		<script src="scripts/modernizr-2.8.3.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/basic.css"/>
 	</head>
 	<body>
+		<header>
+			<img src="images/logo.gif" alt="Jay Skript and the Domsters"/>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="photos.html">Photos</a></li>
+					<li><a href="live.html">Live</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<form action="submit.html" method="post">
+				<fieldset id="">
+					<p>
+						<label for="name">Name:</label>
+						<input type="text" 
+							name="name" id="name" 
+							placeholder="You name" required="required"/>
+					</p>
+					<p>
+						<label for="email">Email:</label>
+						<input type="email" 
+							name="email" id="email" 
+							placeholder="You email address" required="required"/>
+					</p>
+					<p>
+						<label for="message">Message:</label>
+						<textarea id="message	" name="message" name="message" 
+							rows="7" cols="45"
+							placeholder="Write your message here."></textarea>
+					</p>
+					<input type="submit" value="Send"/>
+				</fieldset>
+				
+			</form>
+		</article>
+		<script src="scripts/global.js"></script>
 	</body>
 </html>
